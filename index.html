@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="portfolio" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vincent Huang</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Mono" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body ng-controller="mainController as main" ng-cloak>
+	<header id="navbar" class="container">
+		<div class="row">
+			<h1 class="col-md-6 col-sm-6"><span id="bold">{{main.factory.vincent.first.toLowerCase()}}</span><span id="thin">_{{main.factory.vincent.last.toLowerCase()}}</span></h1>
+			<div class="col-md-5 col-md-offset-1 col-sm-6" id="links">
+				<a class="col-md-3 col-sm-3" ui-sref="home">about</a>
+				<a class="col-md-3 col-sm-3" ui-sref="skills">skills</a>
+				<a class="col-md-3 col-sm-3" ui-sref="projects">projects</a>
+				<a class="col-md-3 col-sm-3" ui-sref="contact">contact</a>
+			</div>
+		</div>
+	</header>
+
+	<div ui-view></div>
+
+	<footer id="footer" class="container">
+		<div class="row">
+			<span class="col-md-6 col-sm-6">&copy; 2016 Vincent Huang</span>
+			<span class="col-md-6 col-sm-6" id="right">Full Stack Web Developer Portfolio</span>
+		</div>
+	</footer>
+
+	<!-- angular cdn -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+	<!-- ui-router -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+	<!-- module -->
+	<script src="js/app.js"></script>
+	<!-- factories -->
+	<script src="js/factories/mainFactory.js"></script>
+	<!-- ctrls -->
+	<script src="js/ctrls/mainCtrl.js"></script>
+</body>
+</html>

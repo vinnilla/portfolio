@@ -1,0 +1,12 @@
+<div class="container" id="projects">
+	<div class="row">
+		<div ng-repeat="project in projects.factory.projects" class="project col-md-3 col-sm-3" ng-style="{'background-image' : 'url({{project.image}})'}">
+			<div class="content">
+				<h3><a href="{{project.link}}">{{project.title}}</a></h3>
+				<p>{{project.description}}</p>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+	</div>
+</div>

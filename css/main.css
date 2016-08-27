@@ -1,0 +1,106 @@
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+/*
+font-family: "Ubuntu Mono", monospace;
+font-family: "Ubuntu", sans-serif;
+*/
+
+body {
+/*	background-color: black;*/
+	font-family: "Ubuntu", sans-serif;
+	/*background-image: url('');*/
+}
+
+/*--HEADER--*/
+#navbar {
+	position: fixed;
+	left: 0;
+	top: 0;
+	font-family: "Ubuntu", sans-serif;
+	background-color: rgba(0,0,0,1);
+	color: white;
+	width: 100%;
+	padding: 1% 10%;
+}
+
+#navbar h1 {
+	margin: 0;
+	display: inline;
+}
+
+#links {
+	display: inline;
+	font-size: 20px;
+	line-height: 4rem;
+	text-align: right;
+}
+#links a {
+	color: white;
+	text-decoration:none;
+}
+
+#links a:hover {
+	text-decoration: none;
+	font-size: 22px;
+	/*color: rgba(150,200,255,1);*/
+}
+
+#bold {
+	font-weight: 900;
+}
+
+#thin {
+	font-weight: 100;
+}
+
+
+/*--FOOTER--*/
+#footer {
+	background-color: rgba(0,0,0,1);
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: rgba(255,255,255, 0.5);
+	font-family: "Ubuntu", sans-serif;
+	padding: 1% 10%;
+}
+
+#right {
+	text-align: right;
+}
+
+/*--PROJECTS--*/
+#projects {
+	padding: 100px 0;
+	width: 95%;
+}
+
+.project {
+	text-align: center;
+	min-height: 700px;
+	background-color: black;
+	border: 10px white solid;
+	/*padding: 10% 1%;*/
+	color: white;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.project p {
+	position: absolute;
+	left: 0;
+	top: 25%;
+	margin: 0 5%;
+}
+
+.project a {
+	color: white;
+}
+
+.project .content {
+	padding: 10% 5%;
+	min-height: 700px;
+	background-color: rgba(0,0,0,0.8);
+}
