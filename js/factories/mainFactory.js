@@ -11,7 +11,18 @@
 
 		factory.vincent = {
 			first: "Vincent",
-			last: "Huang"
+			last: "Huang",
+			github: "https://github.com/vinnilla",
+			linkedin: "https://www.linkedin.com/in/vincentckhuang"
+		}
+
+		factory.contact = [
+			"(626) 233-7056",
+			"vincentckhuang@gmail.com"
+		]
+
+		factory.about = {
+			title: "Full Stack Web Developer"
 		}
 
 		factory.projects = [
