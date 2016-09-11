@@ -30,11 +30,11 @@
 		var self = this;
 		this.factory = factory
 		this.languages = [
-			['devicon-html5-plain', 'devicon-css3-plain', 'devicon-javascript-plain', 'devicon-ruby-plain', 'devicon-cplusplus-plain'],
-			['devicon-jquery-plain', 'devicon-angularjs-plain'],
-			['devicon-nodejs-plain', 'devicon-rails-plain'],
-			['devicon-postgresql-plain', 'devicon-mongodb-plain'],
-			['devicon-git-plain', 'devicon-github-plain']
+			[{icon: 'devicon-html5-plain', level: '0.95'}, {icon: 'devicon-css3-plain', level: '0.9'}, {icon: 'devicon-javascript-plain', level: '0.9'}, {icon: 'devicon-ruby-plain', level: '0.66'}, {icon: 'devicon-cplusplus-plain', level: '0.45'}],
+			[{icon: 'devicon-jquery-plain', level: '0.9'}, {icon: 'devicon-angularjs-plain', level: '0.8'}],
+			[{icon: 'devicon-nodejs-plain', level: '0.8'}, {icon: 'devicon-rails-plain', level: '0.6'}],
+			[{icon: 'devicon-postgresql-plain', level: '0.6'}, {icon: 'devicon-mongodb-plain', level: '0.9'}],
+			[{icon: 'devicon-git-plain', level: '0.95'}, {icon: 'devicon-github-plain', level: '0.95'}]
 		]
 	}// end of skills function
 

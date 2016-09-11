@@ -1,3 +1,6 @@
 <div id="skills" ng-repeat="type in skills.languages">
-	<i ng-repeat="language in type" class="{{language}}"></i>
+	<div class="skill" ng-repeat="language in type">
+		<i class="{{language.icon}}"></i>
+		<progress value="{{language.level}}"></progress>
+	</div>
 </div>

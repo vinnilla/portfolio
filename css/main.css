@@ -193,3 +193,15 @@ body {
 	color: white;
 	font-size: 50px;
 }
+
+.skill {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 50%;
+}
+
+.skill progress {
+	width: 50%;
+	margin-left: 2%;
+}
