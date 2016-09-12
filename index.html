@@ -10,9 +10,9 @@
 </head>
 <body ng-controller="mainController as main" ng-cloak>
 	<header id="navbar" class="container">
-			<h1><span id="bold">{{main.factory.vincent.first.toLowerCase()}}</span><span id="thin">_{{main.factory.vincent.last.toLowerCase()}}</span></h1>
+			<h1 ui-sref="home"><span id="bold">{{main.factory.vincent.first.toLowerCase()}}</span><span id="thin">_{{main.factory.vincent.last.toLowerCase()}}</span></h1>
 			<div id="links">
-				<a ui-sref="home">home</a>
+				<a ui-sref="about">about</a>
 				<a ui-sref="skills">skills</a>
 				<a ui-sref="projects">projects</a>
 				<a ui-sref="contact">contact</a>

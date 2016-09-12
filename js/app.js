@@ -11,6 +11,11 @@
 					templateUrl: 'partials/home.html',
 					controller: 'homeController as home'
 				})
+				.state('about', {
+					url: '/about',
+					templateUrl: 'partials/about.html',
+					controller: 'aboutController as about'
+				})
 				.state('skills', {
 					url: '/skills',
 					templateUrl: 'partials/skills.html',
