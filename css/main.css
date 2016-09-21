@@ -19,8 +19,20 @@ body {
 
 @media (max-width: 1350px) {
 	body {
-		background-size: inherit;
-		background-position: 60% 27%;
+		background-size: 150%;
+		background-position: 60% 17%;
+	}
+}
+
+@media (max-width: 1150px) {
+	body {
+		background-size: 200%;
+	}
+}
+
+@media (max-width: 850px) {
+	body {
+		background-size: 250%;
 	}
 }
 
