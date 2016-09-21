@@ -24,7 +24,7 @@
 
 		factory.about = {
 			title: "A passionate developer",
-			blurb: "    As a Web Developer, I revel in the challenge of merging efficiency with problem solving. I recently graduated from USC with a BS in Biological Sciences. However, during my time at USC, my love for biology was overwhelmed by my new-found passion for programming after taking an introductory course for C++. While taking that course, I discovered my drive to solve problems thatso often plague programmers. \n\n    I quickly decided that I would advance my expertise and flexibility as a programmer after graduating and I found General Assembly. Web Development appealed to me because its inherent usefulness in any professional field allows me to explore many different fields of work. I am always eager to expand and apply my skills as a web developer."
+			blurb: "    As a Web Developer, I revel in the challenge of merging efficiency with problem solving. I recently graduated from USC with a BS in Biological Sciences. However, during my time at USC, my love for biology was overwhelmed by my new-found passion for programming after taking an introductory course for C++. While taking that course, I discovered my drive to solve problems that so often plague programmers. \n\n    I quickly decided that I would advance my expertise and flexibility as a programmer after graduating and I found General Assembly. Web Development appealed to me because its inherent usefulness in any professional field allows me to explore many different fields of work. I am always eager to expand and apply my skills as a web developer."
 		}
 
 		factory.projects = [
