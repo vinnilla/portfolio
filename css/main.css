@@ -192,13 +192,28 @@ body {
 }
 
 /*--SKILLS--*/
+#skills-container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: flex-end;
+}
+
 #skills {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-around;
+	align-content: space-between;
+	width: 35%;
+	padding: 1% 0% 0% 10%;
+}
+#skills2 {
 	display: flex;
 	flex-flow: column wrap;
 	justify-content: space-between;
 	align-content: space-between;
-	width: 80%;
-	padding: 1% 10%;
+	width: 100%;
+	padding: 1% 0%;
 }
 
 #skills i {
@@ -210,10 +225,37 @@ body {
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	width: 50%;
+	width: 170%;
 }
 
 .skill progress {
 	width: 50%;
 	margin-left: 2%;
+}
+
+#skill-blurb {
+	padding-top: 2%;
+	color: white;
+	width: 50%;
+	line-height: 30px;
+	white-space: pre-wrap;
+}
+
+/*--ABOUT--*/
+#about {
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding: 0 10%;
+}
+
+#about-header {
+	font-size: 40px;
+}
+
+#about p {
+	white-space: pre-wrap;
+	width: 50%;
+	line-height: 30px;
 }
