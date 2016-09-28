@@ -14,7 +14,7 @@
 			last: "Huang",
 			github: "https://github.com/vinnilla",
 			linkedin: "https://www.linkedin.com/in/vincentckhuang",
-			resume: "https://drive.google.com/file/d/0BxhhJIS3qePrZmR6c3NKV25vRG8/view"
+			resume: "https://drive.google.com/file/d/0BxhhJIS3qePrbzdmTVBxeXV4OHM/view?usp=sharing"
 		}
 
 		factory.contact = [
